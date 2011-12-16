@@ -1,0 +1,17 @@
+[user]
+        name = Kozaki, Tsuneaki
+        email = kozaki.tsuneaki@gmail.com
+[color]
+        ui = auto
+[core]
+        quotepath = false
+        editor = emacsclient
+        autocrlf = false
+[alias]
+        co = checkout
+	      hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+        ci = commit -v
+        tr = log --graph --pretty='format:%C(yellow)%h%Creset %s %Cgreen(%an)%Creset %Cred%d%Creset'
+[github]
+        user = koko-u
+        token = 2b0c9bb39ea65b4ffeb29a076c6c19cd
