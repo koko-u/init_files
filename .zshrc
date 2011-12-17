@@ -48,10 +48,11 @@ if [ -x /usr/bin/dircolors ]; then
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
 
-    alias diff='colordiff'
 fi
 
 alias rm='rm -i'
+alias diff='colordiff'
+alias sqlite3='rlwrap sqlite3'
 
 # 履歴ファイルに時刻を記録
 setopt extended_history
