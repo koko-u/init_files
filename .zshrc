@@ -4,6 +4,9 @@ autoload -Uz promptinit
 promptinit
 prompt adam2
 
+#if [ -s "$HOME/.zsh.git" ] && source "$HOME/.zsh.git"
+#PROMPT="$PROMPT `rprompt-git-current-branch`"
+
 setopt histignorealldups sharehistory
 
 # Use emacs keybindings even if our EDITOR is set to vi
@@ -115,9 +118,19 @@ setopt no_flow_control
 # Load nvm
 if [ -s "$HOME/.nvm/nvm.sh" ]; then
   source "$HOME/.nvm/nvm.sh"
-  nvm use latest > /dev/null
-  export NODE_PATH=$HOME/.nvm/v0.6.0/lib/node_modules
+  nvm use default > /dev/null
+  export NODE_PATH=${NVM_PATH}_modules
 fi
 
 # bundler-exec
 [ -s "$HOME/.bundler-exec.sh" ] && . "$HOME/.bundler-exec.sh"
+
+# perlbrew
+[ -s "$HOME/perl5/perlbrew/etc/bashrc" ] && . "$HOME/perl5/perlbrew/etc/bashrc"
+
+# git-completion
+autoload bashcompinit
+bashcompinit
+[ -s "$HOME/.git-completion.sh" ] && . "$HOME/.git-completion.sh"
+[ -s "$HOME/.git-flow-completion.zsh" ] && . "$HOME/.git-flow-completion.zsh"
+
