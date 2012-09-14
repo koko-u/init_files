@@ -39,9 +39,6 @@ zstyle ':completion:*' verbose true
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
-# Load RVM function
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
@@ -133,4 +130,14 @@ autoload bashcompinit
 bashcompinit
 [ -s "$HOME/.git-completion.sh" ] && . "$HOME/.git-completion.sh"
 [ -s "$HOME/.git-flow-completion.zsh" ] && . "$HOME/.git-flow-completion.zsh"
+
+# Enable C-xC-e to edit command line
+autoload -U edit-command-line
+# Emacs style
+zle -N edit-command-line
+bindkey '^xe' edit-command-line
+bindkey '^x^e' edit-command-line
+# Vi style
+# zle -N edit-command-line
+# bindkey -M vicmd v edit-command-line
 
