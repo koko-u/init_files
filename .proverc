@@ -1,0 +1,6 @@
+--lib
+--color
+--failures
+--timer
+--trap
+--exec "perl -Ilib -MTest::Name::FromLine -MTest::Flatten"
