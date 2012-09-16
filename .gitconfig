@@ -8,6 +8,7 @@
         editor = emacsclient
         autocrlf = input
         safecrlf = true
+        excludesfile = /home/kozaki/.gitignore
 [alias]
         co = checkout
 	      hist = log --pretty=format:\"%C(yellow)%h%Creset %Cblue%ad%Creset %Cgreen[%an]%Creset %s%Cred%d%Creset\" --graph --date=short
