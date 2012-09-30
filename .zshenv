@@ -12,10 +12,10 @@ export XIM_ARGS='-r --daemonize --xim'
 # for tokyocabinet
 TOKYO_CABINET_BASE=/home/kozaki/tokyocabinet
 LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$TOKYO_CABINET_BASE/lib
-PATH=$PATH:$TOKYO_CABINET_BASE/bin
 C_INCLUDE_PATH=$C_INCLUDE_PATH:$TOKYO_CABINET_BASE/include
 export LD_LIBRARY_PATH
 export C_INCLUDE_PATH
+export PATH=$PATH:$TOKYO_CABINET_BASE/bin
 
 # for android
 export ANDROID_HOME=/home/kozaki/android-sdk-linux
@@ -43,23 +43,25 @@ export SCALAHOME=/usr/local/share/scala-2.9.1.final/
 export ANT_HOME=/usr/local/apache-ant/apache-ant-1.8.4/
 export PATH=$PATH:$ANT_HOME/bin
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
 # Perl
-export PERL_LOCAL_LIB_ROOT=${HOME}perl5
+export PERL_LOCAL_LIB_ROOT=${HOME}/perl5
 export MODULEBUILDRC=${HOME}/perl5/.modulebuildrc
 export PERL_MB_OPT="--install_base ${HOME}/perl5"
 export PERL_MM_OPT="INSTALL_BASE=${HOME}/perl5"
-export PERL5LIB=$PERL5LIB:${HOME}/perl5/lib/perl5:${HOME}/perl5/lib/perl5/i686-linux-gnu-thread-multi-64int
+export PERL5LIB=${HOME}/perl5/lib/perl5:${HOME}/perl5/lib/perl5/x86_64-linux-gnu-thread-multi
 export PATH=$PATH:${HOME}/perl5/bin
+
 
 # ruby tools
 export JEWELER_OPTS='--rspec'
 
-# IntelliJ
-export JAVA_HOME=/opt/jvm/jdk1.7.0_07
-export PATH=$PATH:$JAVA_HOME/bin/:$JAVA_HOME/jre/bin:/usr/local/share/ideaIC/bin
+# Java
+export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
+export PATH=$PATH:$JAVA_HOME/bin/:$JAVA_HOME/jre/bin
 
 # Eclipse
 export PATH=$PATH:/usr/local/share/eclipse
 
+# rbenv
+export PATH=$PATH:$HOME/.rbenv/bin
+eval "$(rbenv init -)"

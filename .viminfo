@@ -1,0 +1,209 @@
+# この viminfo ファイルは Vim 7.3 によって生成されました.
+# 変更する際には十分注意してください!
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 最後の 検索パターン:
+~MSle0~/perl
+
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:wq
+:q
+:!
+:w
+:q!
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+?/perl
+?/PERL
+?/ensime
+?/rsense
+?/JAVA
+?/md5
+?/ssl
+?/feature
+
+# 式 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+"0	LINE	0
+	export PERL5LIB=$PERL5LIB:${HOME}/perl5/lib/perl5:${HOME}/perl5/lib/perl5/x86_64-linux-gnu-thread-multi
+""1	LINE	0
+	
+"2	LINE	0
+	[ -s "$HOME/perl5/perlbrew/etc/bashrc" ] && . "$HOME/perl5/perlbrew/etc/bashrc"
+"3	LINE	0
+	# perlbrew
+"4	LINE	0
+	echo $PERL5LIB:${HOME}/perl5/lib/perl5:${HOME}/perl5/lib/perl5/x86_64-linux-gnu-thread-multi
+"5	LINE	0
+	echo 
+"6	LINE	0
+	echo ".zshenv load"
+"7	LINE	0
+	echo ".zshenv load"
+"8	LINE	0
+	echo ".zshenv load"
+"9	LINE	0
+	
+"q	CHAR	0
+	;
+"-	CHAR	0
+	:
+
+# ファイルマーク:
+'0  125  0  ~/.zshrc
+'1  51  16  ~/.zshenv
+'2  47  5  ~/.zshenv
+'3  47  0  ~/.zshenv
+'4  29  0  ~/.zshenv
+'5  1  12  ~/.zshenv
+'6  68  0  ~/.zshenv
+'7  1  65  ~/.emacs.d/site-start.d/init_scala.el
+'8  109  42  ~/.emacs.d/site-start.d/init_ruby.el
+'9  1  9  ~/.rbenv/src/ruby-1.9.3-p194/configure
+
+# ジャンプリスト (新しいものが先):
+-'  125  0  ~/.zshrc
+-'  1  0  ~/.zshrc
+-'  51  16  ~/.zshenv
+-'  1  0  ~/.zshenv
+-'  47  5  ~/.zshenv
+-'  16  0  ~/.zshenv
+-'  29  0  ~/.zshenv
+-'  68  0  ~/.zshenv
+-'  1  65  ~/.emacs.d/site-start.d/init_scala.el
+-'  5  0  ~/.emacs.d/site-start.d/init_scala.el
+-'  109  42  ~/.emacs.d/site-start.d/init_ruby.el
+-'  1  0  ~/.emacs.d/site-start.d/init_ruby.el
+-'  60  0  ~/.zshenv
+-'  1  9  ~/.rbenv/src/ruby-1.9.3-p194/configure
+-'  18870  44  ~/.rbenv/src/ruby-1.9.3-p194/configure
+-'  17942  44  ~/.rbenv/src/ruby-1.9.3-p194/configure
+-'  982  30  ~/.rbenv/src/ruby-1.9.3-p194/configure
+-'  956  30  ~/.rbenv/src/ruby-1.9.3-p194/configure
+-'  142  44  ~/.rbenv/src/ruby-1.9.3-p194/configure
+-'  23  44  ~/.rbenv/src/ruby-1.9.3-p194/configure
+-'  67  22  ~/.zshenv
+-'  132  0  ~/.zshrc
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  4  33  ~/.zshrc
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  1  9  ~/.rbenv/src/ruby-1.9.3-p194/configure
+-'  18870  44  ~/.rbenv/src/ruby-1.9.3-p194/configure
+-'  17942  44  ~/.rbenv/src/ruby-1.9.3-p194/configure
+-'  982  30  ~/.rbenv/src/ruby-1.9.3-p194/configure
+-'  956  30  ~/.rbenv/src/ruby-1.9.3-p194/configure
+-'  142  44  ~/.rbenv/src/ruby-1.9.3-p194/configure
+-'  23  44  ~/.rbenv/src/ruby-1.9.3-p194/configure
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  1  9  ~/.rbenv/src/ruby-1.9.3-p194/configure
+-'  18870  44  ~/.rbenv/src/ruby-1.9.3-p194/configure
+-'  17942  44  ~/.rbenv/src/ruby-1.9.3-p194/configure
+-'  982  30  ~/.rbenv/src/ruby-1.9.3-p194/configure
+-'  956  30  ~/.rbenv/src/ruby-1.9.3-p194/configure
+-'  142  44  ~/.rbenv/src/ruby-1.9.3-p194/configure
+-'  23  44  ~/.rbenv/src/ruby-1.9.3-p194/configure
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  38  10  ~/work/foo/Gemfile
+-'  1  0  ~/work/foo/Gemfile
+-'  51  16  ~/.zshenv
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/.zshrc
+	"	125	0
+	^	132	0
+	.	125	0
+	+	4	33
+	+	123	0
+	+	42	0
+	+	132	0
+	+	125	0
+
+> ~/.zshenv
+	"	51	16
+	.	51	16
+	+	67	22
+	+	60	49
+	+	61	51
+	+	59	5
+	+	1	0
+	+	1	0
+	+	29	0
+	+	47	0
+	+	47	16
+	+	47	5
+	+	47	9
+	+	47	5
+	+	47	5
+	+	47	0
+	+	51	16
+
+> ~/.emacs.d/site-start.d/init_scala.el
+	"	1	65
+
+> ~/.emacs.d/site-start.d/init_ruby.el
+	"	109	42
+
+> ~/.rbenv/src/ruby-1.9.3-p194/configure
+	"	1	9
+
+> ~/work/foo/Gemfile
+	"	38	10

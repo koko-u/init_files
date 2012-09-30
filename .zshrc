@@ -122,9 +122,6 @@ fi
 # bundler-exec
 [ -s "$HOME/.bundler-exec.sh" ] && . "$HOME/.bundler-exec.sh"
 
-# perlbrew
-[ -s "$HOME/perl5/perlbrew/etc/bashrc" ] && . "$HOME/perl5/perlbrew/etc/bashrc"
-
 # git-completion
 autoload bashcompinit
 bashcompinit
