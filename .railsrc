@@ -1,1 +1,1 @@
--T --skip-bundle
+-T --skip-bundle -m https://gist.githubusercontent.com/koko-u/5909525/raw/0737ab2de9b5a38095867b8f2504333f02db972c/rails_template.txt
