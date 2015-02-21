@@ -23,9 +23,22 @@
         user = koko-u
         token = 2b0c9bb39ea65b4ffeb29a076c6c19cd
 [merge]
+	keepBackup = false
         summary = true
         tool    = "p4merge"
+[mergetool]
+	prompt = false
 [mergetool "p4merge"]
-        cmd = p4merge "$PWD/$BASE" "$PWD/$LOCAL" "$PWD/$REMOTE" "$PWD/$MERGED"
+        cmd = p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
         keepBackup = false
         trustExitCode = false
+	keepTemporaries = false
+[diff]
+	tool = p4merge
+[difftool]
+	prompt = false
+[difftool "p4merge"]
+	cmd = p4merge "$LOCAL" "$REMOTE"
+	keepTemporaries = false
+	trustExitCode = false
+	keepBackup = false
