@@ -11,6 +11,6 @@ Pry.config.prompt = [
 
 begin
   require 'awesome_print'
-  Pry.print = ->(out, value) { out.puts value.ai }
+  AwesomePrint.pry!
 rescue LoadError
 end
