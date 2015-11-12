@@ -19,6 +19,7 @@
         br = branch
         type = cat-file -t
         dump = cat-file -p
+        ignore = !"f() { local s=$1; shift; while [ $# -gt 0 ]; do s=\"$s,$1\"; shift; done; curl -s \"https://www.gitignore.io/api/$s\"; }; f"
 [github]
         user = koko-u
         token = 2b0c9bb39ea65b4ffeb29a076c6c19cd
